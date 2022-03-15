@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="messold.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+       <h4>DESCRIPTION</h4>
+       <p>There`s one simple reason we call this our everyday oxford: we</p>
+       <p>wear them pretty much every single day</p>
+       <h4>MATERIAL</h4>
+            <P>Just the right amount of sturdy for year round wear.Soft to the</P>
+            <p>touch but built for a decade of solid wear. Oxford is a perfectly</p>
+            <p>versatile fabric that looks just a good pressed as it does pulled</p>
+            <p>off the back of chair. While traditional cotton uses 25 percent </p>
+            <p>of the world`s pesticides, our organic cotton doesn`t use a drop</p>
+            <p>A better shirt, responsibly built for the long haul.</p>
+            <h4>GARMENT WEIGHT</h4>
+            <P>Your daily driver, Burlier than the average </P>
+            <p>bottom up</p>
+            <div class="slidecontainer">
+                <input type="range" min="1" max="100" value ="50" class="slider" id ="myrange"><br>
+                <label>light </label>
+                <label for="">&nbsp;&nbsp;medium</label>
+                <Label>&nbsp; &nbsp; &nbsp;&nbsp;heavy</Label>
+            </div>
+            
+
+        </div>
+        <div class="row">
+            <h4>SPECIFICATIONS</h4>
+            <ul>
+                <li>6-coc 100% organic cotton.</li>
+                <li>Made from our burly rughy oxford.</li>
+                <li>Our signature Jack button down collar.</li>
+                <li>Single rounded chest pocket.</li>
+                <li>Double needle felled construction throughout.</li>
+                <li>Natural buttons.</li>
+                <li>Lock-stitched buttons and buttonholes.</li>
+                <li>Shorter lenght to be worn untacked.</li>
+                <li>Tailcord fit and high armhole.</li>
+                <li>No pleats for easy ironing and clean lines.</li>
+                <li>Wash cold and tumble dry low</li>
+               <li>made in china</li> 
+            </ul>
+
+        </div>
+        <div class="row">
+            <h4>ESSENTIAL</h4>
+            <P>This product is a Taylor Stitch Essential that we aim to always</P>
+            <p>keep in stock.Essential are our tried and true product that we</p>
+            <p>wear damn near everyday. If your size is currently out-of-stock, </p>
+            <p>please submit your email address to the "Notify me" tab.We</p>
+            <p>restock Essentials regularly. In stock sizes are available for</p>
+            <p>immediate shipping.</p>
+
+
+        </div>
+    </div>
+    <script>
+        var slider = document.getElementById("myRange");
+var output = document.getElementById("demo");
+output.innerHTML = slider.value; 
+slider.oninput = function() {
+  output.innerHTML = this.value;
+}
+    </script>
+</body>
+</html>
